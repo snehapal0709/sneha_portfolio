@@ -125,3 +125,5 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 - B.Tech Mathematics and Computing: RGIPT, Rajiv Gandhi Institute of Petroleum Technology; November 2022 - Present (as supplied by user).
 - Campus image: rgipt-campus.jpg from https://rgipt.ac.in/site/writereaddata/uploadedImages/Image/I_202505311400440048.jpg ; attribution links to https://rgipt.ac.in/en/page/campus-view .
 - Journey section added between About and Projects with a three-stop timeline and campus postcard.
+
+- Journey layout revision: Moved after Projects; horizontal three-milestone timeline on desktop, stacked on mobile, campus postcard integrated into the RGIPT milestone.
