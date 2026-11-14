@@ -103,9 +103,10 @@ document.addEventListener('keydown', event => { if (event.key === 'Tab') hideCus
 
 // Portfolio commands are browser-local; no shell or remote execution.
 function portfolioCommand(raw) {
-  const command = raw.trim().toLowerCase().replace(/^\//, '').replace(/\s+/g, ' ');
+  let command = raw.trim().toLowerCase().replace(/^\//, '').replace(/\s+/g, ' ');
+  if (command.startsWith('open ')) command = command.slice(5).replace(/^\//, '');
   const responses = {
-    help: ['AVAILABLE COMMANDS', 'about - A little about Sneha\nprojects - Explore five projects\nskills - Languages and technologies\nexperience - The Exotel chapter\neducation - My learning journey\nachievements - Leadership and milestones\ninterests - Life beyond the screen\ncontact - Say hello\ngithub / linkedin / spotify - Find my links\nopen <section> - Jump to a portfolio section\nresume - Resume availability\nclear - Clear the screen\n\nTip: Tab completes commands; up/down recalls history.'],
+    help: ['AVAILABLE COMMANDS', 'about - A little about Sneha\nprojects - Explore five projects\nskills - Languages and technologies\nexperience - The Exotel chapter\neducation - My learning journey\nachievements - Leadership and milestones\ninterests - Life beyond the screen\ncontact - Say hello\ngithub / linkedin / spotify - Find my links\nopen <section> - Show its summary here\nresume - Resume availability\nclear - Clear the screen\n\nTip: Tab completes commands; up/down recalls history.'],
     about: ['SNEHA PAL', 'Software Developer & AI Enthusiast\nBased in Gurgaon\nB.Tech Mathematics and Computing, RGIPT (2022-2026)\n\nTurning ideas into full-stack products and AI-powered tools.\nCurious about how things work, obsessed with shipping things that do.'],
     skills: ['MY TECH ORBIT', 'Python / JavaScript / TypeScript / C++ / Java / SQL\nReact / Node.js / FastAPI\nMachine Learning / Deep Learning / TensorFlow\nMongoDB / Git / GitHub / Docker / Linux'],
     experience: ['THE WORK CHAPTER', 'Exotel\nProduct Support Engineer I | August 2026 - Present\nProduct Support Engineer Intern | May - August 2026\n\nInternship: product monitoring dashboards, backend/API debugging,\nlog analysis, RCA, API validation and incident tracking.\nTools: Python, SQL, REST APIs, Linux, Jira, Salesforce.'],
@@ -123,11 +124,6 @@ function portfolioCommand(raw) {
     projects: ['THE PROJECT COLLECTION', '01 HirePrep - AI resume analysis and interview preparation\n02 ChefKart - Personal chef marketplace\n03 Document Management System - RAG / forked exploration\n04 Auto Mail Sender - Project brief; implementation pending\n05 Fake News Detection - Project brief; implementation pending', [['HirePrep', 'https://github.com/snehapal0709/HirePrep'], ['ChefKart', 'https://github.com/akshatg1403/chefkart/'], ['RAG', 'https://github.com/snehapal0709/RAG'], ['Auto Mail', 'https://github.com/snehapal0709/auto-mail-sender'], ['Fake News', 'https://github.com/snehapal0709/fake-news-detection']]]
   };
   if (command === 'clear') return { clear: true };
-  if (command.startsWith('open ')) {
-    const section = command.slice(5);
-    if (['about','projects','journey','experience','achievements','interests','contact'].includes(section)) return { title: 'TAKING YOU THERE', body: `Opening ${section}.`, section };
-    return { title: 'SECTION NOT FOUND', body: 'Try open about, open projects, open journey, open experience, open achievements, open interests, or open contact.', error: true };
-  }
   if (command === 'journey') return { title: responses.education[0], body: responses.education[1] };
   if (command === 'download resume') return { title: responses.resume[0], body: responses.resume[1] };
   const data = responses[command];
@@ -171,16 +167,14 @@ function runPortfolioCommand(raw) {
   }
   shellInput.value = '';
   shellScreen.scrollTop = shellScreen.scrollHeight;
-  if (result.section) {
-    const destination = document.getElementById(result.section);
-    destination.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block:'start' });
-    destination.setAttribute('tabindex','-1'); destination.focus({preventScroll:true});
-  } else shellInput.focus({ preventScroll:true });
+  shellInput.focus({ preventScroll:true });
 }
 shellForm.addEventListener('submit', event => { event.preventDefault(); runPortfolioCommand(shellInput.value); });
 document.querySelectorAll('[data-command]').forEach(button => button.addEventListener('click', () => runPortfolioCommand(button.dataset.command)));
 shellInput.addEventListener('keydown', event => {
-  if (event.key === 'ArrowUp') {
+  if (event.key === 'Enter' && !event.isComposing) {
+    event.preventDefault(); event.stopPropagation(); runPortfolioCommand(shellInput.value);
+  } else if (event.key === 'ArrowUp') {
     event.preventDefault(); if (historyPosition === shellHistory.length) shellDraft = shellInput.value;
     historyPosition = Math.max(0,historyPosition - 1); shellInput.value = shellHistory[historyPosition] || '';
   } else if (event.key === 'ArrowDown') {

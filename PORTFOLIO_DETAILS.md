@@ -158,3 +158,5 @@ Cafes/new places/experiences; psychological thrillers, mystery, contemporary rom
 ## Interactive terminal
 
 Cream/sage laptop-style browser-local portfolio shell. Commands: help, about, projects, skills, experience, education/journey, achievements, interests, contact, github, linkedin, spotify, resume, clear, whoami, pwd, ls, open section. Enter submit, quick buttons, up/down history, unique Tab autocomplete, Ctrl+L clear. No eval/shell execution; output uses safe text nodes. Resume reports unavailable. Historical README-only project status preserved.
+
+- Terminal fix: all commands, including open section aliases, return inline summaries without page navigation. Enter explicitly handled; form submission prevented. Prompt pinned outside scrollable output. Script URL versioned to avoid stale cached behavior.
