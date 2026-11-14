@@ -105,3 +105,7 @@ For each project, collect:
 AI-powered resume analysis and interview prep. Live: https://hireprep-1.onrender.com/ | Source: https://github.com/snehapal0709/HirePrep
 
 Screenshot: HIREPREP.png. Features: JD match/ATS scores, skill gaps and category breakdown, interview questions with hints, 14-day prep plan, ATS resume generation. Stack: Next.js 14, TypeScript, Tailwind CSS, Framer Motion, MongoDB/Mongoose, NextAuth.js v4, Claude API, pdf-parse. Presented in a sage/champagne project showcase with animated screenshot frame. Remaining sections preserved as placeholders.
+
+## Project layout update / ChefKart
+
+Projects now use compact two-column cards with expandable build details (single column on mobile). ChefKart added with CHEFKART.png; live URL confirmed by user: https://frontend-mu-rosy-75.vercel.app/ ; source: https://github.com/akshatg1403/chefkart/ . Personal chef marketplace featuring discovery, bookings and chef dashboard. Stack from repository: Next.js, Node.js/Express, PostgreSQL/Prisma, Tailwind CSS, JWT and Cloudinary.
