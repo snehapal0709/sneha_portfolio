@@ -144,3 +144,7 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 ## Achievements & Leadership
 
 User-supplied: Sponsorship Head Kaltarang 2025 (40+ companies); Event Team Head GDSC RGIPT (40-50 volunteers, 10+ events); PR Head GeeksforGeeks Student Chapter (15+ outreach connections); Reliance Foundation Scholar for academic merit; 500+ DSA problems and LeetCode contest rating 1615; hackathon participation. Six compact honours cards with small official Kaltarang, Google, GFG and LeetCode marks; RF and hackathon use typographic symbols. Warm gold/sage honours cabinet background. Logo sources: RGIPT Cultural Council, google.com/favicon.ico, media.geeksforgeeks.org/gfg-gg-logo.svg, leetcode.com/favicon.ico. Google icon identifies the parent brand, not a chapter-specific GDSC logo.
+
+## Hobbies & Interests
+
+Cafes/new places/experiences; psychological thrillers, mystery, contemporary romance; music/live events/genres; minimal aesthetics/visual design/creative ideas; emerging technologies. Moodboard uses all five user-supplied pics_intrest photos. Playlist: https://open.spotify.com/playlist/5ySrKP617xTgcdm5CAcqIB (Wanna listen? by Sneha); external link and lazy Spotify embed included.
