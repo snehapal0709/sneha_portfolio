@@ -187,3 +187,14 @@ shellInput.addEventListener('keydown', event => {
     event.preventDefault(); shellOutput.replaceChildren(); shellInput.value = '';
   }
 });
+
+const copyEmailButton = document.querySelector('#copy-email');
+const copyEmailStatus = document.querySelector('#copy-email-status');
+copyEmailButton.addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText('snehapal1708@gmail.com');
+    copyEmailStatus.textContent = 'Email copied. A little hello is all it takes.';
+  } catch {
+    copyEmailStatus.textContent = 'Copy this address: snehapal1708@gmail.com';
+  }
+});

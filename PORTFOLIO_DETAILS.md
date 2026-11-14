@@ -160,3 +160,7 @@ Cafes/new places/experiences; psychological thrillers, mystery, contemporary rom
 Cream/sage laptop-style browser-local portfolio shell. Commands: help, about, projects, skills, experience, education/journey, achievements, interests, contact, github, linkedin, spotify, resume, clear, whoami, pwd, ls, open section. Enter submit, quick buttons, up/down history, unique Tab autocomplete, Ctrl+L clear. No eval/shell execution; output uses safe text nodes. Resume reports unavailable. Historical README-only project status preserved.
 
 - Terminal fix: all commands, including open section aliases, return inline summaries without page navigation. Enter explicitly handled; form submission prevented. Prompt pinned outside scrollable output. Script URL versioned to avoid stale cached behavior.
+
+## Contact
+
+Contact section: warm letter-style card with email mailto, LinkedIn profile, GitHub link, clipboard copy-email action and accessible status feedback. Gurgaon location, handwritten signature, paper/tape/envelope details. No contact form or unconfigured submission backend.
