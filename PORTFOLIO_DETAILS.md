@@ -122,8 +122,10 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 
 - Class X: Indirapuram Public School, CBSE; July 2018 - May 2019.
 - Class XII: Indirapuram Public School, CBSE; July 2020 - May 2021.
-- B.Tech Mathematics and Computing: RGIPT, Rajiv Gandhi Institute of Petroleum Technology; November 2022 - Present (as supplied by user).
+- B.Tech Mathematics and Computing: RGIPT, Rajiv Gandhi Institute of Petroleum Technology; November 2022 - 2026 (as supplied by user).
 - Campus image: rgipt-campus.jpg from https://rgipt.ac.in/site/writereaddata/uploadedImages/Image/I_202505311400440048.jpg ; attribution links to https://rgipt.ac.in/en/page/campus-view .
 - Journey section added between About and Projects with a three-stop timeline and campus postcard.
 
 - Journey layout revision: Moved after Projects; horizontal three-milestone timeline on desktop, stacked on mobile, campus postcard integrated into the RGIPT milestone.
+
+- RGIPT milestone ends in 2026; unified single card with campus photograph as background and readable text overlay. Separate postcard removed.
