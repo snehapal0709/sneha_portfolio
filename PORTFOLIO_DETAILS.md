@@ -117,3 +117,11 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 - Hero revision: Avatar-only; photographic hero image and Avatar/Photo controls removed. About portrait watermark retained.
 
 - Tech Orbit expanded per user: Python, JavaScript, React, Node.js, Machine Learning, Deep Learning, TensorFlow, SQL, MongoDB, Git, Docker, FastAPI, C++, Java, TypeScript, Linux; existing GitHub retained.
+
+## My Journey / Education
+
+- Class X: Indirapuram Public School, CBSE; July 2018 - May 2019.
+- Class XII: Indirapuram Public School, CBSE; July 2020 - May 2021.
+- B.Tech Mathematics and Computing: RGIPT, Rajiv Gandhi Institute of Petroleum Technology; November 2022 - Present (as supplied by user).
+- Campus image: rgipt-campus.jpg from https://rgipt.ac.in/site/writereaddata/uploadedImages/Image/I_202505311400440048.jpg ; attribution links to https://rgipt.ac.in/en/page/campus-view .
+- Journey section added between About and Projects with a three-stop timeline and campus postcard.
