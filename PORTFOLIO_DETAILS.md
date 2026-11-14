@@ -8,7 +8,7 @@ Yeh file portfolio ki information collect karne ke liye hai. First local website
 - **Age:** 24 (sirf zarurat hone par dikhani hai)
 - **Role:** Software Developer
 - **Interest:** AI Enthusiast
-- **Location:** Bangalore
+- **Location:** Gurgaon
 - **Education:** B.Tech MNC, RGIPT
 - **Focus:** SDE, Full-Stack, AI/ML
 - **Internships:** 2
@@ -85,7 +85,7 @@ For each project, collect:
 - Interactive addition: Idea spark button cycles through five creative prompts; no personal qualifications or projects invented.
 - Signature branding: Hand-drawn cursive SVG capital S flows into an attached sage star, followed by cursive `neha`; animated stroke entrance and fine underline.
 - Latest polish: Champagne ribbon behind hero, desktop cursor light, card spotlight hover, scroll progress line, and four keyboard-accessible constellation buttons with changing captions. Reduced-motion preferences respected.
-- About redesign: Who I Am heading, profile dossier with monochrome portrait watermark, Bangalore/RGIPT/focus details, user-supplied full-stack/AI bio, 2 internships and 20+ projects count-up totals, rotating roles and moving technology strip (C++, Python, Full-Stack, GitHub, AI/ML, Software Development).
+- About redesign: Who I Am heading, profile dossier with monochrome portrait watermark, Gurgaon/RGIPT/focus details, user-supplied full-stack/AI bio, 2 internships and 20+ projects count-up totals, rotating roles and moving technology strip (C++, Python, Full-Stack, GitHub, AI/ML, Software Development).
 - Personal photo gallery removed; hero avatar/photo controls retained. Social links added to About and email CTA enabled in contact section.
 - Cursor update: Desktop dot and softly following ring, expands on links/buttons; native cursor preserved for touch, reduced motion and keyboard navigation.
 
