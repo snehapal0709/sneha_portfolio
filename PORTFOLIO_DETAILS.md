@@ -154,3 +154,7 @@ Cafes/new places/experiences; psychological thrillers, mystery, contemporary rom
 - Hobbies layout: six-card 3x2 desktop grid. First row cafe/books/aesthetics; second row curiosity/music/Spotify. Playlist now integrated into sixth card next to music; standalone player panel removed.
 
 - Hobbies final revision: five cards with corrected photo badges 01-05. Desktop has three top cards and two wider lower cards. Music and Spotify merged; Spotify uses its default artwork-based color theme rather than theme=0 (dark). Exact embedded player color remains controlled by Spotify.
+
+## Interactive terminal
+
+Cream/sage laptop-style browser-local portfolio shell. Commands: help, about, projects, skills, experience, education/journey, achievements, interests, contact, github, linkedin, spotify, resume, clear, whoami, pwd, ls, open section. Enter submit, quick buttons, up/down history, unique Tab autocomplete, Ctrl+L clear. No eval/shell execution; output uses safe text nodes. Resume reports unavailable. Historical README-only project status preserved.
