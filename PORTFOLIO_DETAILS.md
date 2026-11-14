@@ -140,3 +140,7 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 - Experience revised to individual role cards with small Exotel logo and company link on each card; large company sidebar removed. Timeline supports future company changes.
 
 - Final Journey/Experience polish: School photo from user saved as school-campus.jpeg and applied inside both Class X/XII cards. Journey uses map-paper grid, field-note scrap, tape and stamp accents. Experience uses a desk-note/blueprint backdrop, clipped note, scribbles and individual taped role cards. School/college text stays within the image-backed cards.
+
+## Achievements & Leadership
+
+User-supplied: Sponsorship Head Kaltarang 2025 (40+ companies); Event Team Head GDSC RGIPT (40-50 volunteers, 10+ events); PR Head GeeksforGeeks Student Chapter (15+ outreach connections); Reliance Foundation Scholar for academic merit; 500+ DSA problems and LeetCode contest rating 1615; hackathon participation. Six compact honours cards with small official Kaltarang, Google, GFG and LeetCode marks; RF and hackathon use typographic symbols. Warm gold/sage honours cabinet background. Logo sources: RGIPT Cultural Council, google.com/favicon.ico, media.geeksforgeeks.org/gfg-gg-logo.svg, leetcode.com/favicon.ico. Google icon identifies the parent brand, not a chapter-specific GDSC logo.
