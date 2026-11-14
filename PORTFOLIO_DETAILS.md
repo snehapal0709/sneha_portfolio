@@ -138,3 +138,5 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 - Logo supplied via https://akshatgoyal.vercel.app/logos/exotel.svg saved as exotel.svg. Company link https://exotel.com/ . Experience remains directly after Journey.
 
 - Experience revised to individual role cards with small Exotel logo and company link on each card; large company sidebar removed. Timeline supports future company changes.
+
+- Final Journey/Experience polish: School photo from user saved as school-campus.jpeg and applied inside both Class X/XII cards. Journey uses map-paper grid, field-note scrap, tape and stamp accents. Experience uses a desk-note/blueprint backdrop, clipped note, scribbles and individual taped role cards. School/college text stays within the image-backed cards.
