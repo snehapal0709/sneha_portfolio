@@ -152,3 +152,5 @@ Cafes/new places/experiences; psychological thrillers, mystery, contemporary rom
 - Interests layout simplified: five matching photo-first cards, consistent image/copy height, two-column desktop grid with final card centered, single column on mobile; Spotify remains a separate full-width panel.
 
 - Hobbies layout: six-card 3x2 desktop grid. First row cafe/books/aesthetics; second row curiosity/music/Spotify. Playlist now integrated into sixth card next to music; standalone player panel removed.
+
+- Hobbies final revision: five cards with corrected photo badges 01-05. Desktop has three top cards and two wider lower cards. Music and Spotify merged; Spotify uses its default artwork-based color theme rather than theme=0 (dark). Exact embedded player color remains controlled by Spotify.
