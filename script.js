@@ -19,19 +19,6 @@ const observer = new IntersectionObserver(entries => {
 }, { rootMargin: '-15% 0px -55% 0px' });
 document.querySelectorAll('main section[id]').forEach(section => observer.observe(section));
 
-const portraitFrame = document.querySelector('#portrait-frame');
-const portraitCaption = document.querySelector('#portrait-caption');
-document.querySelectorAll('[data-portrait]').forEach(button => {
-  button.addEventListener('click', () => {
-    const avatar = button.dataset.portrait === 'avatar';
-    portraitFrame.classList.toggle('avatar-mode', avatar);
-    portraitCaption.textContent = avatar ? 'a dreamer, in developer mode.' : 'a human behind the code.';
-    document.querySelectorAll('[data-portrait]').forEach(control => {
-      control.setAttribute('aria-pressed', String(control === button));
-    });
-  });
-});
-
 const progress = document.querySelector('.reading-progress');
 let progressQueued = false;
 function updateProgress() {
