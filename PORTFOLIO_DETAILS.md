@@ -148,3 +148,5 @@ User-supplied: Sponsorship Head Kaltarang 2025 (40+ companies); Event Team Head 
 ## Hobbies & Interests
 
 Cafes/new places/experiences; psychological thrillers, mystery, contemporary romance; music/live events/genres; minimal aesthetics/visual design/creative ideas; emerging technologies. Moodboard uses all five user-supplied pics_intrest photos. Playlist: https://open.spotify.com/playlist/5ySrKP617xTgcdm5CAcqIB (Wanna listen? by Sneha); external link and lazy Spotify embed included.
+
+- Interests layout simplified: five matching photo-first cards, consistent image/copy height, two-column desktop grid with final card centered, single column on mobile; Spotify remains a separate full-width panel.
