@@ -99,3 +99,9 @@ For each project, collect:
 - Readability update: Larger body copy, navigation, buttons, profile facts, tech badges and supporting labels across desktop/mobile. About now has a decorative open-book watermark with layered pages, fine lines and a sage bookmark.
 
 - Section framework: About, Projects, Experience, Achievements, Interests, Terminal, Contact, plus a disabled Resume button until the resume file is supplied. About content preserved; the six following sections are empty styled placeholders for future work. Previous exploration/idea widgets removed from the page and their event handlers removed.
+
+## Project 01: HirePrep
+
+AI-powered resume analysis and interview prep. Live: https://hireprep-1.onrender.com/ | Source: https://github.com/snehapal0709/HirePrep
+
+Screenshot: HIREPREP.png. Features: JD match/ATS scores, skill gaps and category breakdown, interview questions with hints, 14-day prep plan, ATS resume generation. Stack: Next.js 14, TypeScript, Tailwind CSS, Framer Motion, MongoDB/Mongoose, NextAuth.js v4, Claude API, pdf-parse. Presented in a sage/champagne project showcase with animated screenshot frame. Remaining sections preserved as placeholders.
