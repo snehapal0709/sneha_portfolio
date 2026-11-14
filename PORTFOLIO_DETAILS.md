@@ -109,3 +109,7 @@ Screenshot: HIREPREP.png. Features: JD match/ATS scores, skill gaps and category
 ## Project layout update / ChefKart
 
 Projects now use compact two-column cards with expandable build details (single column on mobile). ChefKart added with CHEFKART.png; live URL confirmed by user: https://frontend-mu-rosy-75.vercel.app/ ; source: https://github.com/akshatg1403/chefkart/ . Personal chef marketplace featuring discovery, bookings and chef dashboard. Stack from repository: Next.js, Node.js/Express, PostgreSQL/Prisma, Tailwind CSS, JWT and Cloudinary.
+
+## Code collection
+
+Three compact cards added in one desktop row. RAG: actual fork at https://github.com/snehapal0709/RAG (upstream credit retained). Auto Mail Sender and Fake News Detection: original URLs unavailable; public documentation-only repositories created under snehapal0709 with clear implementation-pending status. No implementation fabricated. Card links point to Sneha repos; no live buttons.
