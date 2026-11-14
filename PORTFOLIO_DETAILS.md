@@ -129,3 +129,10 @@ Three compact cards added in one desktop row. RAG: actual fork at https://github
 - Journey layout revision: Moved after Projects; horizontal three-milestone timeline on desktop, stacked on mobile, campus postcard integrated into the RGIPT milestone.
 
 - RGIPT milestone ends in 2026; unified single card with campus photograph as background and readable text overlay. Separate postcard removed.
+
+## Experience / Exotel
+
+- Product Support Engineer I: August 2026 - Present. Responsibilities not yet supplied.
+- Product Support Engineer Intern: May 2026 - August 2026. Built product monitoring dashboards using Python, SQL and REST APIs; debugged backend/API integration failures via logs and RCA; partnered with engineering/product on API validation and incident tracking.
+- Internship tools: Python, SQL, REST APIs, Linux, Jira, Salesforce.
+- Logo supplied via https://akshatgoyal.vercel.app/logos/exotel.svg saved as exotel.svg. Company link https://exotel.com/ . Experience remains directly after Journey.
