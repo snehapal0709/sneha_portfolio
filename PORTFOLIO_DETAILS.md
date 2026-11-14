@@ -115,3 +115,5 @@ Projects now use compact two-column cards with expandable build details (single 
 Three compact cards added in one desktop row. RAG: actual fork at https://github.com/snehapal0709/RAG (upstream credit retained). Auto Mail Sender and Fake News Detection: original URLs unavailable; public documentation-only repositories created under snehapal0709 with clear implementation-pending status. No implementation fabricated. Card links point to Sneha repos; no live buttons.
 
 - Hero revision: Avatar-only; photographic hero image and Avatar/Photo controls removed. About portrait watermark retained.
+
+- Tech Orbit expanded per user: Python, JavaScript, React, Node.js, Machine Learning, Deep Learning, TensorFlow, SQL, MongoDB, Git, Docker, FastAPI, C++, Java, TypeScript, Linux; existing GitHub retained.
