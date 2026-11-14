@@ -1,0 +1,10 @@
+pics/
+pics-contact-sheet.jpg
+pp.jpeg
+.vercel/
+node_modules/
+.env
+.env.*
+*.log
+Thumbs.db
+desktop.ini
